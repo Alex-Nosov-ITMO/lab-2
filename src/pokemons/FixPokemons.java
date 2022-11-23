@@ -18,7 +18,6 @@ public class FixPokemons extends Pokemon {
 
         if (name == null){
             assignet_name = false;
-            //System.out.println("У покемона недопустимое имя");
         }else{
             assignet_name = true;
         }
