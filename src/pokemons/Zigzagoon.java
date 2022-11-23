@@ -3,10 +3,9 @@ package pokemons;
 import attacks.specialAttakcs.Thunderbolt;
 import attacks.statusAttacs.Rest;
 import attacks.statusAttacs.Tail_Whip;
-import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
-public class Zigzagoon extends Pokemon {
+public class Zigzagoon extends FixPokemons {
     public Zigzagoon(String name, int lvl)
     {
         super(name, lvl);

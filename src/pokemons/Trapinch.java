@@ -2,10 +2,9 @@ package pokemons;
 
 import attacks.specialAttakcs.Mud_Slap;
 import attacks.statusAttacs.Swagger;
-import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
-public class Trapinch extends Pokemon {
+public class Trapinch extends FixPokemons {
     public Trapinch(String name, int lvl){
         super(name, lvl);
         this.setType(Type.GROUND);

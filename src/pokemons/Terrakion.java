@@ -4,10 +4,9 @@ import attacks.physicalAttacks.Poison_Jab;
 import attacks.physicalAttacks.Quick_Attack;
 import attacks.physicalAttacks.Stone_Edge;
 import attacks.statusAttacs.Swagger;
-import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
-public class Terrakion extends Pokemon {
+public class Terrakion extends FixPokemons {
     public Terrakion(String name, int lvl)
     {
         super(name,lvl);
