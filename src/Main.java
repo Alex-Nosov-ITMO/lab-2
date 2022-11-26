@@ -8,7 +8,7 @@ public class Main {
         FixPokemons Linoone = new Linoone("Пегас", -6);
         FixPokemons Vibrava = new Vibrava("Данила", -5);
         FixPokemons Trapinch = new Trapinch("Саня", -8);
-        FixPokemons Flygon = new Flygon("Лаба", 2);
+        FixPokemons Flygon = new Flygon(null, 2);
 
 
         FixPokemons[] Foe = {Terrakion, Zigzagoon, Trapinch};
